@@ -12,27 +12,6 @@ from sklearn.decomposition import PCA
 
 
 
-# Initialize pyttsx3 for text-to-speech
-engine = pyttsx3.init()
-
-def configure_voice_engine():
-    """Configure pyttsx3 voice engine."""
-    voices = engine.getProperty('voices')
-    engine.setProperty('voice', voices[1].id)  # Female voice
-    engine.setProperty('rate', 150)  # Speed of speech
-    engine.setProperty('volume', 1.0)  # Max volume
-
-configure_voice_engine()
-
-def speak_text(text):
-    """Speak the provided text using pyttsx3."""
-    engine.say(text)
-    engine.runAndWait()
-
-
-
-
-
 
 # Suppress warnings
 warnings.filterwarnings("ignore")
