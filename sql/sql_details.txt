@@ -1,0 +1,7 @@
+Host: sql12.freesqldatabase.com
+Database name: sql12727928
+Database user: sql12727928
+Database password: tb3E3IPTvj
+Port number: 3306
+
+freesql@frontbridges.com

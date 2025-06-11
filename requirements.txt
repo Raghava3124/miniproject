@@ -1,0 +1,8 @@
+streamlit
+mysql-connector-python
+pandas
+deep-translator
+scikit-learn
+openai
+pyttsx3
+streamlit-option-menu
